@@ -9,7 +9,7 @@ class Solution:
         visited.add(0)  # 已經排好、等待處理, 下次有拿到鑰匙, 不要再放入 stack 囉
         # print('stack', stack)
         while stack:  # 只要 stack 還有東西, 就繼續處理
-            now = stack.popleft()  # 吐出1個房間, 現在要來處理
+            now = stack.pop()  # 吐出1個房間, 現在要來處理
             #print('現在在處理房間', now)
             for k in rooms[now]:  # 把 room now 房間裡, 所有的鑰匙k,都拿來檢查
                 #print('在房間', now, '取出鑰匙', k)
