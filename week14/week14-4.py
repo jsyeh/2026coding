@@ -1,4 +1,4 @@
-# week14-4.py 學習計畫 DP - 1D 第2題 Medium 題
+# week14-4.py 學習計畫 DP - 1D 第3題 Medium 題
 # LeetCode 198. House Robber
 class Solution:
     def rob(self, nums: List[int]) -> int:
